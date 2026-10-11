@@ -14,6 +14,11 @@ header .cover-copy p{margin:8px auto;font-size:14px;}
 header .cover-copy .btn{margin:9px 0 0;padding:12px 23px;}
 @media(max-width:550px){header .cover-photo{height:40svh;min-height:195px;max-height:360px;}header .cover-copy{padding:9px 12px 17px;}header .cover-copy h1{font-size:clamp(28px,7.5vw,40px);}}
 @media(max-height:700px){header .cover-photo{height:34svh;min-height:160px;}header .cover-copy{padding:6px 12px 10px;}header .cover-copy p{margin:5px auto;}}
+
+/* Ajuste final: eliminar cielo/árbol superior y conservar cuerpo entero */
+header .cover-photo{height:46svh;min-height:260px;max-height:470px;object-fit:cover;object-position:center bottom;}
+@media(max-width:550px){header .cover-photo{height:46svh;min-height:260px;max-height:470px;object-position:center bottom;}}
+@media(max-height:700px){header .cover-photo{height:42svh;min-height:230px;object-position:center bottom;}}
 </style></head>
 <body><header><div class="card"><img class="cover-photo" src="itzae-01.jpg" alt="Itzae Emiliano, fotografía principal de su bautizo" fetchpriority="high"><div class="cover-copy"><div style="font-size:50px">🕊️</div><p class="small gold">Con la bendición de Dios</p><h1>Mi Bautizo<br><em>Itzae Emiliano</em></h1><p class="gold">✦ ✧ ✦</p><p>Con mucho amor y alegría te invitamos a compartir este día tan especial.</p><h3>2 de enero de 2027</h3><a class="btn" href="#detalles">Ver invitación ♡</a></div></div></header>
 <section><p class="small gold">Falta muy poco</p><h2>Cuenta regresiva</h2><div class="count"><div><strong id="d">--</strong><span>DÍAS</span></div><div><strong id="h">--</strong><span>HORAS</span></div><div><strong id="m">--</strong><span>MINUTOS</span></div><div><strong id="s">--</strong><span>SEGUNDOS</span></div></div></section>
